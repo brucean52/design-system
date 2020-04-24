@@ -1,8 +1,8 @@
 {
   "author": "MarkLogic",
-  "name": "marklogic-ui-library",
+  "name": "@marklogic/design-system",
   "description": "MarkLogic Engineering UX design system",
-  "version": "0.2.2",
+  "version": "0.1.1",
   "license": "Apache-2.0",
   "repository": "http://github.com/marklogic/design-system",
   "main": "dist/index.js",
@@ -52,7 +52,10 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@ovh-ux/rollup-plugin-less-tilde-importer": "^1.0.2",
+    "@rollup/plugin-commonjs": "^10.0.2",
+    "@rollup/plugin-node-resolve": "^5.2.0",
     "@rollup/plugin-replace": "^2.3.1",
+    "@rollup/plugin-url": "^2.2.2",
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-docs": "^5.2.8",
     "@storybook/addon-info": "^5.2.8",
@@ -77,18 +80,14 @@
     "gh-pages": "^2.1.1",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
-    "lodash-es": "^4.17.15",
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.3.0",
     "rollup": "^1.20.1",
     "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.0.2",
-    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-url": "^2.2.2"
+    "rollup-plugin-postcss": "^2.0.3"
   },
   "files": [
     "dist"
@@ -99,6 +98,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "antd": "^4.0.4",
+    "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
