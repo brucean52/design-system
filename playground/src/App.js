@@ -21,6 +21,8 @@ import {
 import { text } from '@storybook/addon-knobs'
 import { Avatar as MLAvatar } from 'antd'
 
+import NestedTable from './NestedTable'
+
 const configValues = {
   dateFormat: 'YYYY-MMM-DD', // Default for all dates, and DatePicker
   dateTimeFormat: 'YYYY-MMM-DD, HH:mm:ss', // default for all dates with times, and DatePicker with times
@@ -84,6 +86,7 @@ export default class App extends Component {
               <MLDatePicker size='default' />
               <MLDatePicker size='large' />
               <MLDatePicker picker='week' />
+              <NestedTable/>
               <div style={{ height: 2000 }}>Some tall content</div>
             </MLLayout.MLContent>
             <MLLayout.MLFooter year='2019' />
